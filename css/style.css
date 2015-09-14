@@ -131,9 +131,21 @@ p {
 /* Images */
 img {
   border: 1px solid #dddddd;
-  margin: 15px;
-  float: left;
+  margin: 0px;
+  float: center;
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
+#title {
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
 /* Responsive */
 @media (max-width: 800px) {
   body {
