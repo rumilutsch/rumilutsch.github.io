@@ -17,10 +17,19 @@ body {
   max-width: 700px;
   background-color: #fff;
   padding: 25px 50px;
-  margin: 20px auto;
+  margin: 20px auto;    
 }
+
+.container-fluid {
+    display: table-cell;  
+}
+
+.container-fluid li{
+    list-style: square inside;  
+}
+
 .row-fluid {
-  border-bottom: 1px solid #F5A9AD;
+  border-bottom: 1px solid #3ba39b;
 }
 .span9 {
   padding-top: 10px;
@@ -43,6 +52,9 @@ ul {
 }
 .skills {
   border: 0;
+}
+.skills li {
+    list-style: square inside;
 }
 /* Links */
 a {
@@ -77,16 +89,16 @@ h5 {
 }
 h1 {
   font-size: 40px;
-  line-height: 50px;
-  padding-top: 30px;
+  line-height: 40px;
+  padding-top: 10px;
   font-weight: 700;
   font-family: Open Sans;
-  text-align: center;
+  text-align: left;
   letter-spacing: 1px;
 }
 h2 {
   font-size: 21px;
-  text-align: center;
+  text-align: left;
 }
 h3 {
   font-size: 20px ;
@@ -129,21 +141,22 @@ p {
   list-style: none;
 }
 /* Images */
-img {
+.container-fluid img {
   border: 1px solid #dddddd;
-  margin: 0px;
+  margin: 10px;
   float: center;
-  height: 50%;
-  width: 50%;
-  display: block;
+  height: 45%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
-
+  border-radius: 50%;
 }
 
 #title {
-  padding-bottom: 20px;
-  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding: inherit;
+  text-align: center;
 }
 
 /* Responsive */
